@@ -1,10 +1,343 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
 </head>
 <body>
-  <h1>Hello, GitHub Pages!</h1>
-  <p>This is my first hosted webpage.</p>
+<x-dc>
+<helmet data-dc-atomics><meta name="design_doc_mode" content="canvas">
+<link rel="stylesheet" href="_ds/broadsheet-8b43a8ea-4f03-4157-add3-65c884d768dd/styles.css">
+<style>
+body{margin:0;background:#e8e6e4}
+.dv-turn{padding:40px 44px 32px;scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 20px}
+.dv-tid{font:600 10px/1 var(--font-heading);letter-spacing:.08em;padding:4px 7px;background:var(--color-text);color:var(--color-bg);border-radius:2px;text-decoration:none}
+.dv-tname{font:600 14px/1.2 var(--font-heading);color:var(--color-text)}
+.dv-opts{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px/1 var(--font-heading);letter-spacing:.06em;padding:4px 7px;background:rgba(32,30,29,.1);color:var(--color-text);border-radius:2px;text-decoration:none}
+.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 12px/1.35 var(--font-body);color:color-mix(in srgb,var(--color-text) 55%,transparent)}
+.dv-card{max-width:100%;background:var(--color-bg);box-shadow:var(--shadow-md);overflow:hidden}
+.dv-opt:target .dv-oid{background:var(--color-accent);color:var(--color-bg)}
+.dv-next{margin:24px 0 0;font:12.5px/1.6 var(--font-body);color:color-mix(in srgb,var(--color-text) 55%,transparent)}
+.qk{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 60%,transparent)}
+.mono{font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.sel{position:relative}
+.cell{padding:11px 10px;border-bottom:1px solid color-mix(in srgb,var(--color-text) 8%,transparent);display:flex;flex-direction:column;justify-content:center}
+.hcell{padding:9px 10px;border-bottom:1px solid var(--color-divider);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 60%,transparent)}
+.tin{width:100%;min-height:30px;padding:4px 8px;font:inherit;font-size:13.5px;color:var(--color-text);caret-color:var(--color-accent);background:var(--color-surface);border:1px solid var(--color-divider);border-radius:2px}
+.tin:hover{border-color:color-mix(in srgb,var(--color-text) 45%,transparent)}
+.tin:focus-visible{border-color:var(--color-accent);outline:none}
+.chk{width:15px;height:15px;flex:none;accent-color:var(--color-accent);cursor:pointer}
+</style></helmet>
+
+<section class="dv-turn" id="t1">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">Question paper setter collection against course allocation — four entry modes</span></div>
+<div class="dv-opts">
+
+<div class="dv-opt" id="1a">
+<div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a>HoD sweep — the allocation register, setter fields edited in place. Built for 300+ rows: one screen, no navigation, tabular figures.</div>
+<div class="dv-card" style="width:1320px">
+  <div style="padding:28px 32px 0">
+    <div class="qk">Controller of Examinations · Setter register</div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:40px;margin-top:14px">
+      <div>
+        <h1 style="margin:0;font-size:38px">Paper setters, Fall Semester 2026&ndash;27</h1>
+        <p style="margin:8px 0 0;font-size:14px;max-width:62ch" class="text-muted">School of Computer Science &amp; Engineering. 312 allocations in scope. Setter identities are visible to the Examination Section only, and are sealed once the register is submitted.</p>
+      </div>
+      <div style="display:flex;gap:10px;flex:none">
+        <button class="btn btn-secondary">Save draft</button>
+        <button class="btn btn-primary">Submit register</button>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;align-items:center;gap:34px;padding:26px 32px 22px">
+    <div>
+      <div class="qk">Assigned</div>
+      <div style="display:flex;align-items:baseline;gap:9px;margin-top:6px">
+        <span class="mono" style="font:600 30px/1 var(--font-heading)">128</span>
+        <span class="text-muted" style="font-size:13px">of 312</span>
+      </div>
+      <div style="width:280px;height:5px;margin-top:9px;background:color-mix(in srgb,var(--color-text) 10%,transparent);display:flex">
+        <span style="width:41%;background:var(--color-accent)"></span>
+        <span style="width:7%;background:var(--color-accent-2)"></span>
+      </div>
+      <div style="display:flex;gap:16px;margin-top:8px;font-size:11.5px" class="text-muted"><span>128 confirmed</span><span>21 need attention</span><span>163 untouched</span></div>
+    </div>
+    <div style="width:1px;height:56px;background:var(--color-divider)"></div>
+    <div style="display:flex;gap:22px">
+      <div><div class="qk">Semester type</div>
+        <select class="input" style="width:190px;margin-top:6px;appearance:none"><option>Fall Semester 2026&ndash;27</option><option>Winter Semester 2026&ndash;27</option><option>Inter-semester 2027</option></select></div>
+      <div><div class="qk">Slot group</div>
+        <select class="input" style="width:130px;margin-top:6px;appearance:none"><option>All slots</option><option>Theory only</option><option>Lab only</option></select></div>
+      <div><div class="qk">Filter</div>
+        <div class="seg" style="margin-top:6px"><label class="seg-opt"><input type="radio" name="f1a" checked="checked">Unassigned</label><label class="seg-opt"><input type="radio" name="f1a">Attention</label><label class="seg-opt"><input type="radio" name="f1a">All</label></div></div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:86px 112px minmax(240px,1fr) 122px 200px 226px 92px 118px;padding:0 32px">
+    <div class="hcell">Slot</div><div class="hcell">Course code</div><div class="hcell">Course title</div><div class="hcell">Paper type</div><div class="hcell">Handling faculty</div><div class="hcell">Paper setter</div><div class="hcell">Due</div><div class="hcell">Status</div>
+
+    <div class="cell"><span class="tag tag-accent mono">A1+TA1</span></div>
+    <div class="cell mono" style="font-size:13.5px">BCSE202L</div>
+    <div class="cell" style="font-size:14px">Data Structures and Algorithms</div>
+    <div class="cell text-muted" style="font-size:13px">Theory</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. S. Rajkumar</span><span class="mono text-muted" style="font-size:11.5px">ERP 18422</span></div>
+    <div class="cell"><label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer"><input type="checkbox" class="chk" checked="checked"><span>Same as handling faculty</span></label></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">12 Oct</div>
+    <div class="cell"><span class="tag tag-accent">Confirmed</span></div>
+
+    <div class="cell"><span class="tag tag-accent mono">B2+TB2</span></div>
+    <div class="cell mono" style="font-size:13.5px">BCSE302L</div>
+    <div class="cell" style="font-size:14px">Database Management Systems</div>
+    <div class="cell text-muted" style="font-size:13px">Theory</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. Meenakshi R.</span><span class="mono text-muted" style="font-size:11.5px">ERP 21489</span></div>
+    <div class="cell" style="gap:6px"><div style="display:flex;gap:6px"><input class="tin mono" style="width:74px" value="19204"><input class="tin" value="Dr. K. Anbarasan"></div><label style="display:flex;align-items:center;gap:7px;font-size:11.5px;cursor:pointer" class="text-muted"><input type="checkbox" class="chk">Same as handling faculty</label></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">12 Oct</div>
+    <div class="cell"><span class="tag tag-accent">Confirmed</span></div>
+
+    <div class="cell"><span class="tag tag-accent mono">C1+TC1</span></div>
+    <div class="cell mono" style="font-size:13.5px">BCSE308L</div>
+    <div class="cell" style="font-size:14px">Compiler Design</div>
+    <div class="cell text-muted" style="font-size:13px">Theory</div>
+    <div class="cell"><span style="font-size:13.5px">Prof. V. Sundararajan</span><span class="mono text-muted" style="font-size:11.5px">ERP 17003</span></div>
+    <div class="cell" style="gap:6px"><div style="display:flex;gap:6px"><input class="tin mono" style="width:74px;border-color:var(--color-accent-2)" value="17003"><input class="tin" value="Prof. V. Sundararajan"></div><span style="font-size:11.5px;color:var(--color-accent-2-700)">On sabbatical this term &mdash; choose another setter</span></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">12 Oct</div>
+    <div class="cell"><span class="tag tag-accent-2">Attention</span></div>
+
+    <div class="cell"><span class="tag tag-accent mono">D1</span></div>
+    <div class="cell mono" style="font-size:13.5px">BCSE204P</div>
+    <div class="cell" style="font-size:14px">Design and Analysis of Algorithms Lab</div>
+    <div class="cell text-muted" style="font-size:13px">Lab</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. P. Hemalatha</span><span class="mono text-muted" style="font-size:11.5px">ERP 22710</span></div>
+    <div class="cell"><input class="tin" placeholder="Search setter by name or ERP ID"></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">19 Oct</div>
+    <div class="cell"><span class="tag tag-neutral">Not set</span></div>
+
+    <div class="cell"><span class="tag tag-accent mono">E2+TE2</span></div>
+    <div class="cell mono" style="font-size:13.5px">BCSE309L</div>
+    <div class="cell" style="font-size:14px">Cryptography and Network Security</div>
+    <div class="cell text-muted" style="font-size:13px">Open book</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. A. Fathima Begum</span><span class="mono text-muted" style="font-size:11.5px">ERP 20155</span></div>
+    <div class="cell" style="gap:5px"><input class="tin" value="Dr. N. Venkataraman &middot; ERP 16880"><span style="font-size:11.5px" class="text-muted">External moderator: Dr. S. Iyer, IIT Madras</span></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">19 Oct</div>
+    <div class="cell"><span class="tag tag-accent">Confirmed</span></div>
+
+    <div class="cell"><span class="tag tag-accent mono">F1+TF1</span></div>
+    <div class="cell mono" style="font-size:13.5px">BCSE414L</div>
+    <div class="cell" style="font-size:14px">Machine Learning</div>
+    <div class="cell text-muted" style="font-size:13px">Theory</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. G. Pradeepa</span><span class="mono text-muted" style="font-size:11.5px">ERP 23044</span></div>
+    <div class="cell"><label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer"><input type="checkbox" class="chk" checked="checked"><span>Same as handling faculty</span></label></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">26 Oct</div>
+    <div class="cell"><span class="tag tag-accent">Confirmed</span></div>
+
+    <div class="cell"><span class="tag tag-accent mono">G2</span></div>
+    <div class="cell mono" style="font-size:13.5px">BCSE355L</div>
+    <div class="cell" style="font-size:14px">Cloud Computing</div>
+    <div class="cell text-muted" style="font-size:13px">Theory</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. M. Kavitha</span><span class="mono text-muted" style="font-size:11.5px">ERP 19877</span></div>
+    <div class="cell"><input class="tin" placeholder="Search setter by name or ERP ID"></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">26 Oct</div>
+    <div class="cell"><span class="tag tag-neutral">Not set</span></div>
+  </div>
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:20px 32px 28px">
+    <span class="text-muted" style="font-size:12.5px">Rows 1&ndash;7 of 312 &middot; last saved 11:42</span>
+    <div style="display:flex;gap:10px"><button class="btn btn-ghost">Apply &ldquo;same as handling faculty&rdquo; to all unset rows</button><button class="btn btn-secondary">Load more</button></div>
+  </div>
+</div>
+</div>
+
+<div class="dv-opt" id="1b">
+<div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a>Register plus setter sheet &mdash; the same list, with one course opened to the right. Room for paper type, moderator, deadline and the undertaking.</div>
+<div class="dv-card" style="width:1180px;display:flex;align-items:stretch">
+  <div style="width:560px;padding:26px 0 26px 30px">
+    <div class="qk">Fall Semester 2026&ndash;27 &middot; SCOPE</div>
+    <h2 style="margin:12px 0 0;font-size:27px">Allocations awaiting a setter</h2>
+    <input class="input" style="margin-top:16px;width:100%" placeholder="Course code, title, slot or faculty">
+    <div style="display:grid;grid-template-columns:84px minmax(0,1fr) 90px;margin-top:18px">
+      <div class="hcell" style="padding-left:0">Slot</div><div class="hcell">Course &amp; handling faculty</div><div class="hcell" style="padding-right:0;text-align:right">Setter</div>
+
+      <div class="cell" style="padding-left:0"><span class="tag tag-accent mono">B2+TB2</span></div>
+      <div class="cell" style="background:color-mix(in srgb,var(--color-accent) 8%,transparent)"><span style="font-size:14px">Database Management Systems</span><span class="mono text-muted" style="font-size:11.5px">BCSE302L &middot; Dr. Meenakshi R. &middot; ERP 21489</span></div>
+      <div class="cell" style="padding-right:0;align-items:flex-end"><span class="tag tag-accent">Open</span></div>
+
+      <div class="cell" style="padding-left:0"><span class="tag tag-accent mono">D1</span></div>
+      <div class="cell"><span style="font-size:14px">Design and Analysis of Algorithms Lab</span><span class="mono text-muted" style="font-size:11.5px">BCSE204P &middot; Dr. P. Hemalatha &middot; ERP 22710</span></div>
+      <div class="cell" style="padding-right:0;align-items:flex-end"><span class="tag tag-neutral">Not set</span></div>
+
+      <div class="cell" style="padding-left:0"><span class="tag tag-accent mono">C1+TC1</span></div>
+      <div class="cell"><span style="font-size:14px">Compiler Design</span><span class="mono text-muted" style="font-size:11.5px">BCSE308L &middot; Prof. V. Sundararajan &middot; ERP 17003</span></div>
+      <div class="cell" style="padding-right:0;align-items:flex-end"><span class="tag tag-accent-2">Attention</span></div>
+
+      <div class="cell" style="padding-left:0"><span class="tag tag-accent mono">G2</span></div>
+      <div class="cell"><span style="font-size:14px">Cloud Computing</span><span class="mono text-muted" style="font-size:11.5px">BCSE355L &middot; Dr. M. Kavitha &middot; ERP 19877</span></div>
+      <div class="cell" style="padding-right:0;align-items:flex-end"><span class="tag tag-neutral">Not set</span></div>
+
+      <div class="cell" style="padding-left:0"><span class="tag tag-accent mono">H1+TH1</span></div>
+      <div class="cell"><span style="font-size:14px">Theory of Computation</span><span class="mono text-muted" style="font-size:11.5px">BCSE304L &middot; Dr. J. Balasubramanian &middot; ERP 18099</span></div>
+      <div class="cell" style="padding-right:0;align-items:flex-end"><span class="tag tag-neutral">Not set</span></div>
+
+      <div class="cell" style="padding-left:0"><span class="tag tag-accent mono">L21+L22</span></div>
+      <div class="cell"><span style="font-size:14px">Web Programming Lab</span><span class="mono text-muted" style="font-size:11.5px">BCSE307P &middot; Dr. T. Sowmya &middot; ERP 24311</span></div>
+      <div class="cell" style="padding-right:0;align-items:flex-end"><span class="tag tag-neutral">Not set</span></div>
+    </div>
+    <div style="margin-top:16px"><button class="btn btn-ghost" style="padding-left:0">Show all 184 unassigned</button></div>
+  </div>
+
+  <div style="width:620px;padding:26px 30px;background:var(--color-surface);display:flex;flex-direction:column;gap:22px">
+    <div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <span class="tag tag-accent mono">B2+TB2</span><span class="mono text-muted" style="font-size:12.5px">BCSE302L &middot; 3 credits &middot; Theory</span>
+      </div>
+      <h3 style="margin:12px 0 0;font-size:26px">Database Management Systems</h3>
+      <p style="margin:7px 0 0;font-size:13.5px" class="text-muted">Handling faculty Dr. Meenakshi R. &middot; ERP 21489 &middot; 68 students</p>
+    </div>
+
+    <div>
+      <div class="qk">Who sets this paper</div>
+      <div class="seg" style="margin-top:9px"><label class="seg-opt"><input type="radio" name="w1b">Handling faculty</label><label class="seg-opt"><input type="radio" name="w1b" checked="checked">Another internal faculty</label><label class="seg-opt"><input type="radio" name="w1b">External setter</label></div>
+    </div>
+
+    <div class="sel">
+      <div class="field"><label>Setter &mdash; search by name or ERP ID</label>
+        <input class="input" value="anbara"></div>
+      <div style="position:absolute;left:0;right:0;top:100%;margin-top:4px;background:var(--color-bg);box-shadow:var(--shadow-lg);border-radius:2px;z-index:2">
+        <div style="display:flex;justify-content:space-between;gap:12px;padding:9px 12px;background:color-mix(in srgb,var(--color-accent) 10%,transparent)"><span style="font-size:13.5px">Dr. K. Anbarasan</span><span class="mono text-muted" style="font-size:12px">ERP 19204 &middot; SCOPE &middot; 2 papers</span></div>
+        <div style="display:flex;justify-content:space-between;gap:12px;padding:9px 12px"><span style="font-size:13.5px">Dr. R. Anbarasi</span><span class="mono text-muted" style="font-size:12px">ERP 20881 &middot; SITE &middot; 0 papers</span></div>
+        <div style="display:flex;justify-content:space-between;gap:12px;padding:9px 12px"><span style="font-size:13.5px">Prof. Anbarasu M.</span><span class="mono text-muted" style="font-size:12px">ERP 15477 &middot; SCOPE &middot; 4 papers</span></div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:112px">
+      <div class="field"><label>Setter ERP ID</label><input class="input mono" value="19204"></div>
+      <div class="field"><label>Setter name (from ERP directory)</label><input class="input" value="Dr. K. Anbarasan" disabled="disabled"></div>
+      <div class="field"><label>Question paper type</label><select class="input" style="appearance:none"><option>Theory &mdash; 3 hours</option><option>Lab</option><option>Open book</option></select></div>
+      <div class="field"><label>Submission deadline</label><input class="input mono" value="12 Oct 2026"></div>
+      <div class="field"><label>Moderator / scrutinizer</label><input class="input" placeholder="Name or ERP ID"></div>
+      <div class="field"><label>Moderator ERP ID</label><input class="input mono" placeholder="Optional"></div>
+    </div>
+
+    <label style="display:flex;gap:11px;align-items:flex-start;cursor:pointer">
+      <input type="checkbox" class="chk" style="margin-top:3px">
+      <span style="font-size:13px;line-height:1.55;text-wrap:pretty">The setter has confirmed availability and signed the confidentiality undertaking for this course. I record this on behalf of the department.</span>
+    </label>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:auto">
+      <span class="text-muted" style="font-size:12px">Autosaved 11:42 &middot; HoD, SCOPE</span>
+      <div style="display:flex;gap:10px"><button class="btn btn-secondary">Skip</button><button class="btn btn-primary">Save and open next</button></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="dv-opt" id="1c">
+<div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a>Bulk import, then reconcile &mdash; admin uploads the allocation sheet; the screen argues with it before anything is written.</div>
+<div class="dv-card" style="width:1020px;padding:28px 32px 30px">
+  <div class="qk">Examination Section &middot; Step 2 of 3</div>
+  <h2 style="margin:12px 0 0;font-size:30px">Reconcile imported setter sheet</h2>
+  <p style="margin:9px 0 0;font-size:14px;max-width:66ch" class="text-muted">setters-fall-2627-scope.xlsx &middot; 312 rows read. Course code, title and slot were matched against the allocation master; setter ERP IDs were checked against the staff directory.</p>
+
+  <div style="display:flex;gap:32px;margin-top:26px;white-space:nowrap">
+    <div><div class="qk">Ready to import</div><div class="mono" style="font:600 28px/1 var(--font-heading);margin-top:7px">274</div></div>
+    <div><div class="qk">Need a decision</div><div class="mono" style="font:600 28px/1 var(--font-heading);margin-top:7px;color:var(--color-accent-2-700)">31</div></div>
+    <div><div class="qk">Duplicate rows</div><div class="mono" style="font:600 28px/1 var(--font-heading);margin-top:7px">7</div></div>
+    <div style="align-self:center;margin-left:auto;display:flex;gap:10px"><button class="btn btn-secondary">Download error report</button><button class="btn btn-primary">Import 274 clean rows</button></div>
+  </div>
+
+  <h4 style="margin:34px 0 0">31 rows need a decision</h4>
+  <div style="display:grid;grid-template-columns:52px 108px minmax(0,1fr) 96px 210px 150px;margin-top:12px">
+    <div class="hcell" style="padding-left:0">Row</div><div class="hcell">Code</div><div class="hcell">What is wrong</div><div class="hcell">Slot</div><div class="hcell">Setter in sheet</div><div class="hcell" style="padding-right:0">Fix</div>
+
+    <div class="cell mono text-muted" style="padding-left:0;font-size:12.5px">14</div>
+    <div class="cell mono" style="font-size:13.5px">BCSE308L</div>
+    <div class="cell"><span style="font-size:13.5px;color:var(--color-accent-2-700)">Setter ERP 17003 is on sabbatical for this semester</span><span class="text-muted" style="font-size:11.5px">Compiler Design &middot; handling faculty is the same person</span></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">C1+TC1</div>
+    <div class="cell"><span style="font-size:13.5px">Prof. V. Sundararajan</span><span class="mono text-muted" style="font-size:11.5px">ERP 17003</span></div>
+    <div class="cell" style="padding-right:0"><button class="btn btn-ghost" style="padding-left:0">Choose another setter</button></div>
+
+    <div class="cell mono text-muted" style="padding-left:0;font-size:12.5px">27</div>
+    <div class="cell mono" style="font-size:13.5px">BCSE204P</div>
+    <div class="cell"><span style="font-size:13.5px;color:var(--color-accent-2-700)">Setter name and ERP ID disagree</span><span class="text-muted" style="font-size:11.5px">Directory has ERP 22710 as Dr. P. Hemalatha</span></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">D1</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. Hemlata Patil</span><span class="mono text-muted" style="font-size:11.5px">ERP 22710</span></div>
+    <div class="cell" style="padding-right:0"><button class="btn btn-ghost" style="padding-left:0">Use directory name</button></div>
+
+    <div class="cell mono text-muted" style="padding-left:0;font-size:12.5px">58</div>
+    <div class="cell mono" style="font-size:13.5px">BCSE355L</div>
+    <div class="cell"><span style="font-size:13.5px;color:var(--color-accent-2-700)">Slot not found in Fall 2026&ndash;27 allocation</span><span class="text-muted" style="font-size:11.5px">Cloud Computing &middot; sheet says G3, master says G2</span></div>
+    <div class="cell mono" style="font-size:12.5px;color:var(--color-accent-2-700)">G3</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. M. Kavitha</span><span class="mono text-muted" style="font-size:11.5px">ERP 19877</span></div>
+    <div class="cell" style="padding-right:0"><button class="btn btn-ghost" style="padding-left:0">Accept G2</button></div>
+
+    <div class="cell mono text-muted" style="padding-left:0;font-size:12.5px">91</div>
+    <div class="cell mono" style="font-size:13.5px">BCSE309L</div>
+    <div class="cell"><span style="font-size:13.5px;color:var(--color-accent-2-700)">Setter ERP ID is blank</span><span class="text-muted" style="font-size:11.5px">External setter &mdash; institution given, no ID</span></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">E2+TE2</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. S. Iyer, IIT Madras</span><span class="mono text-muted" style="font-size:11.5px">&mdash;</span></div>
+    <div class="cell" style="padding-right:0"><button class="btn btn-ghost" style="padding-left:0">Mark as external</button></div>
+
+    <div class="cell mono text-muted" style="padding-left:0;font-size:12.5px">140</div>
+    <div class="cell mono" style="font-size:13.5px">BCSE202L</div>
+    <div class="cell"><span style="font-size:13.5px;color:var(--color-accent-2-700)">Two setters given for one course</span><span class="text-muted" style="font-size:11.5px">Rows 140 and 141 both claim A1+TA1</span></div>
+    <div class="cell mono text-muted" style="font-size:12.5px">A1+TA1</div>
+    <div class="cell"><span style="font-size:13.5px">Dr. S. Rajkumar</span><span class="mono text-muted" style="font-size:11.5px">ERP 18422 &middot; and 1 more</span></div>
+    <div class="cell" style="padding-right:0"><button class="btn btn-ghost" style="padding-left:0">Compare the two</button></div>
+  </div>
+  <div style="margin-top:16px"><button class="btn btn-secondary">Show the remaining 26</button></div>
+</div>
+</div>
+
+<div class="dv-opt" id="1d">
+<div class="dv-olabel"><a class="dv-oid" href="#1d">1d</a>Faculty self-declaration on a phone &mdash; one allocated course at a time, from the ERP notification.</div>
+<div class="dv-card" style="width:392px;padding:26px 24px 28px">
+  <div style="display:flex;align-items:baseline;justify-content:space-between">
+    <div class="qk">Setter declaration</div>
+    <span class="mono text-muted" style="font-size:12px">2 of 4</span>
+  </div>
+  <div style="display:flex;gap:4px;margin-top:12px">
+    <span style="flex:1;height:4px;background:var(--color-accent)"></span><span style="flex:1;height:4px;background:var(--color-accent)"></span><span style="flex:1;height:4px;background:color-mix(in srgb,var(--color-text) 14%,transparent)"></span><span style="flex:1;height:4px;background:color-mix(in srgb,var(--color-text) 14%,transparent)"></span>
+  </div>
+
+  <div style="margin-top:22px">
+    <div style="display:flex;align-items:center;gap:9px"><span class="tag tag-accent mono">B2+TB2</span><span class="mono text-muted" style="font-size:12px">BCSE302L</span></div>
+    <h3 style="margin:11px 0 0;font-size:24px">Database Management Systems</h3>
+    <p style="margin:7px 0 0;font-size:13px" class="text-muted">Fall Semester 2026&ndash;27 &middot; Theory &middot; allocated to you (ERP 21489)</p>
+  </div>
+
+  <div style="margin-top:24px">
+    <div class="qk">Will you set this paper?</div>
+    <div style="display:flex;flex-direction:column;gap:10px;margin-top:11px">
+      <label class="radio" style="padding:11px 12px;background:color-mix(in srgb,var(--color-accent) 9%,transparent);border-radius:2px"><input type="radio" name="w1d" checked="checked"><span class="dot"></span>Yes, I will set it myself</label>
+      <label class="radio" style="padding:11px 12px;border-radius:2px"><input type="radio" name="w1d"><span class="dot"></span>No &mdash; nominate another setter</label>
+    </div>
+  </div>
+
+  <div style="margin-top:22px;display:flex;flex-direction:column;gap:15px">
+    <div class="field"><label>Question paper type</label><select class="input" style="appearance:none;min-height:44px"><option>Theory &mdash; 3 hours</option><option>Open book</option></select></div>
+    <div class="field"><label>Moderator / scrutinizer (name or ERP ID)</label><input class="input" style="min-height:44px" placeholder="Search staff directory"></div>
+    <div class="field"><label>You will submit the paper by</label><input class="input mono" style="min-height:44px" value="12 Oct 2026" disabled="disabled"></div>
+  </div>
+
+  <label style="display:flex;gap:11px;align-items:flex-start;margin-top:20px;cursor:pointer">
+    <input type="checkbox" class="chk" style="margin-top:3px;width:18px;height:18px">
+    <span style="font-size:13px;line-height:1.55;text-wrap:pretty">I have read and accept the confidentiality undertaking for question paper setters.</span>
+  </label>
+
+  <button class="btn btn-primary btn-block" style="min-height:46px;margin-top:20px">Sign and continue</button>
+  <button class="btn btn-ghost btn-block">Decline all four courses</button>
+</div>
+</div>
+
+</div>
+<p class="dv-next">Try next: &ldquo;take <a class="dv-oid" href="#1b">1b</a> and put the moderator fields in <a class="dv-oid" href="#1a">1a</a> as columns&rdquo; &middot; &ldquo;show <a class="dv-oid" href="#1a">1a</a> after submission, sealed and read-only&rdquo; &middot; &ldquo;a tablet-width version of <a class="dv-oid" href="#1b">1b</a>&rdquo;</p>
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}"></script>
 </body>
 </html>
